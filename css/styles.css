@@ -4147,7 +4147,7 @@ input[type=number]::-webkit-outer-spin-button {
 .blog-entry__avatar img {
     width: var(--vspace-2);
     height: var(--vspace-2);
-    border-radius: 50%;
+    
 }
 
 .blog-entry__title, .blog-entry__content {

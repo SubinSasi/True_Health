@@ -3827,6 +3827,13 @@ body.search-is-visible {
     }
 }
 
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
 
 
 /* ===================================================================
@@ -3949,7 +3956,7 @@ body.search-is-visible {
 }
 
 .modal-popup h5 {
-    margin-top: 0;
+    margin-top: 40;
 }
 
 .modal-popup__desc {

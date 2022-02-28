@@ -3107,8 +3107,8 @@ input::-moz-focus-inner {
  * ## header logo
  * ------------------------------------------------------------------- */
 .s-header__logo {
-    --logo-width: 106px;
-    --logo-height: 20px;
+    --logo-width: 170px;
+    --logo-height: 40px;
     height: var(--header-height);
     width: var(--logo-width);
     margin-right: 4rem;

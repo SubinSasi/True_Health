@@ -5,4 +5,7 @@
 # Screenshots
 
 ![home](https://user-images.githubusercontent.com/97297260/156022099-b0a75640-e79c-4f92-be00-810beb19db19.png)
+![2](https://user-images.githubusercontent.com/97297260/156181588-113c5e7c-e16b-48e4-b55e-d6bb8dec942e.png)
+![3](https://user-images.githubusercontent.com/97297260/156181596-98fd03cb-3c1d-40ee-b99c-863774523b1a.png)
+![4](https://user-images.githubusercontent.com/97297260/156181607-349d73e4-ffef-435d-8538-ab32a960a651.png)
 

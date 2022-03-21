@@ -228,9 +228,9 @@
                          srcset="images/test/2.jpg 1x,      
                     <span class="folio-item__text">
                         <a href="#modal-01" class="folio-item__thumb" data-lity>
-                        <input type="button" value="Check" style="float: right"></a>
+                        <input type="button" onclick="test1()" value="Check" style="float: right"></a>
                         <div style="overflow: hidden; padding-right: .5em;">
-                        <input type="number" style="width: 100%;" placeholder=" Enter the number" />
+                        <input type="number" id="test-number1" style="width: 100%;" placeholder=" Enter the number" />
                         </div>
                     </span>
             </div> <!-- end test-item -->
@@ -305,8 +305,8 @@
         <div id="modal-01" class="modal-popup lity-hide">
 
             <div class="modal-popup__desc">
-                <h5>The number pictured is 2</h5>
-                <p>Most color blind people won't see this number clearly.</p>
+                <h5 id="test-print1"></h5>
+                <p id="test-para1">Most color blind people won't see this number clearly</p>
             </div>
 
         </div> <!-- end modal-01 -->
@@ -554,6 +554,7 @@
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/test.js"></script>
 
 </body>
 

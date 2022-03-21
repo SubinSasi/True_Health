@@ -42,3 +42,26 @@ function test2()
         document.getElementById("test-para2").innerHTML = ""
     }
 }
+// THIRD IMAGE
+function test3()
+{
+    var input = document.getElementById("test-number3").value
+    document.getElementById("test-print3").innerHTML = input
+
+    if(input == "0"){
+        document.getElementById("test-print3").innerHTML = "The number which you entered is RIGHT"
+    }else document.getElementById("test-print3").innerHTML = "The number which you entered is WRONG" 
+    
+    if(input == "0"){
+        document.getElementById("test-para3").innerHTML = "Most color blind people won't see this number clearly"
+    }else document.getElementById("test-para3").innerHTML = "Image showned  number is 0"
+
+    if(input == ""){
+        document.getElementById("test-print3").innerHTML = "OOPS!!! Please Enter any number"
+    }
+
+    if(input == ""){
+        document.getElementById("test-para3").innerHTML = ""
+    }
+}
+// FOURTH IMAGE

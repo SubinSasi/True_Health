@@ -252,9 +252,9 @@
                          srcset="images/test/0.jpg 1x,      
                     <span class="folio-item__text">
                         <a href="#modal-03" class="folio-item__thumb" data-lity>
-                            <input type="button" value="Check" style="float: right"></a>
+                            <input type="button" onclick="test3()" value="Check" style="float: right"></a>
                             <div style="overflow: hidden; padding-right: .5em;">
-                            <input type="number" style="width: 100%;" placeholder=" Enter the number" />
+                            <input type="number"  id="test-number3" style="width: 100%;" placeholder=" Enter the number" />
                             </div>
                     </span>
             </div> <!-- end test-item -->
@@ -265,9 +265,9 @@
                          srcset="images/test/8.jpg 1x, 
                     <span class="folio-item__text">
                        <a href="#modal-04" class="folio-item__thumb" data-lity>
-                       <input type="button" value="Check" style="float: right"></a>
+                       <input type="button" onclick="test4()" value="Check" style="float: right"></a>
                         <div style="overflow: hidden; padding-right: .5em;">
-                        <input type="number" style="width: 100%;" placeholder=" Enter the number" />
+                        <input type="number" id="test-number4" style="width: 100%;" placeholder=" Enter the number" />
                         </div>
                     </span>
             </div> <!-- end test-item -->
@@ -278,9 +278,9 @@
                          srcset="images/test/4.jpg 1x, 
                     <span class="folio-item__text">
                         <a href="#modal-05" class="folio-item__thumb" data-lity>
-                        <input type="button" value="Check" style="float: right"></a>
+                        <input type="button" onclick="test5()" value="Check" style="float: right"></a>
                         <div style="overflow: hidden; padding-right: .5em;">
-                        <input type="number" style="width: 100%;" placeholder=" Enter the number" />
+                        <input type="number" id="test-number5" style="width: 100%;" placeholder=" Enter the number" />
                         </div>
                     </span>
             </div> <!-- end test-item -->
@@ -290,9 +290,9 @@
                          srcset="images/test/9.jpg 1x, 
                     <span class="folio-item__text">
                         <a href="#modal-06" class="folio-item__thumb" data-lity>
-                        <input type="button" value="Check" style="float: right"></a>
+                        <input type="button" onclick="test6()" value="Check" style="float: right"></a>
                         <div style="overflow: hidden; padding-right: .5em;">
-                        <input type="number" style="width: 100%;" placeholder=" Enter the number" />
+                        <input type="number" id="test-number6" style="width: 100%;" placeholder=" Enter the number" />
                         </div>
                     </span>
             </div> <!-- end test-item -->
@@ -323,8 +323,8 @@
         <div id="modal-03" class="modal-popup lity-hide">
 
             <div class="modal-popup__desc">
-                <h5>The number pictured is 0</h5>
-                <p>Most color blind people won't see this number clearly.</p>
+                <h5 id="test-print3"></h5>
+                <p id="test-para3"></p>
             </div>
 
         </div><!-- end modal-03 -->
@@ -332,8 +332,8 @@
         <div id="modal-04" class="modal-popup lity-hide">
 
             <div class="modal-popup__desc">
-                <h5>The number pictured is 8</h5>
-                <p>Most color blind people won't see this number clearly.</p>
+                <h5 id="test-print4"></h5>
+                <p id="test-para4"></p>
             </div>
 
         </div><!-- end modal-04 -->
@@ -341,8 +341,8 @@
         <div id="modal-05" class="modal-popup lity-hide">
 
             <div class="modal-popup__desc">
-                <h5>The number pictured is 4</h5>
-                <p>Most color blind people won't see this number clearly.</p>
+                <h5 id="test-print5"></h5>
+                <p id="test-para5"></p>
             </div>
 
         </div><!-- end modal-05 -->
@@ -350,8 +350,8 @@
         <div id="modal-06" class="modal-popup lity-hide">
 
             <div class="modal-popup__desc">
-                <h5>The number pictured is 9</h5>
-                <p>Most color blind people won't see this number clearly.</p>
+                <h5 id="test-print6"></h5>
+                <p id="test-para6"></p>
             </div>
 
         </div><!-- end modal-06 -->

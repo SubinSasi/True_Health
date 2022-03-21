@@ -65,3 +65,24 @@ function test3()
     }
 }
 // FOURTH IMAGE
+function test4()
+{
+    var input = document.getElementById("test-number4").value
+    document.getElementById("test-print4").innerHTML = input
+
+    if(input == "8"){
+        document.getElementById("test-print4").innerHTML = "The number which you entered is RIGHT"
+    }else document.getElementById("test-print4").innerHTML = "The number which you entered is WRONG" 
+    
+    if(input == "8"){
+        document.getElementById("test-para4").innerHTML = "Most color blind people won't see this number clearly"
+    }else document.getElementById("test-para4").innerHTML = "Image showned  number is 8"
+
+    if(input == ""){
+        document.getElementById("test-print4").innerHTML = "OOPS!!! Please Enter any number"
+    }
+
+    if(input == ""){
+        document.getElementById("test-para4").innerHTML = ""
+    }
+}

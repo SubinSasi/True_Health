@@ -108,3 +108,25 @@ function test5()
         document.getElementById("test-para5").innerHTML = ""
     }
 }
+// SIXTH IMAGE
+function test6()
+{
+    var input = document.getElementById("test-number6").value
+    document.getElementById("test-print6").innerHTML = input
+
+    if(input == "9"){
+        document.getElementById("test-print6").innerHTML = "The number which you entered is RIGHT"
+    }else document.getElementById("test-print6").innerHTML = "The number which you entered is WRONG" 
+    
+    if(input == "9"){
+        document.getElementById("test-para6").innerHTML = "Most color blind people won't see this number clearly"
+    }else document.getElementById("test-para6").innerHTML = "Image showned  number is 9"
+
+    if(input == ""){
+        document.getElementById("test-print6").innerHTML = "OOPS!!! Please Enter any number"
+    }
+
+    if(input == ""){
+        document.getElementById("test-para6").innerHTML = ""
+    }
+}

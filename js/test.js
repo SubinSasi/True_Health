@@ -86,3 +86,25 @@ function test4()
         document.getElementById("test-para4").innerHTML = ""
     }
 }
+// FIFTH IMAGE
+function test5()
+{
+    var input = document.getElementById("test-number5").value
+    document.getElementById("test-print5").innerHTML = input
+
+    if(input == "4"){
+        document.getElementById("test-print5").innerHTML = "The number which you entered is RIGHT"
+    }else document.getElementById("test-print5").innerHTML = "The number which you entered is WRONG" 
+    
+    if(input == "4"){
+        document.getElementById("test-para5").innerHTML = "Most color blind people won't see this number clearly"
+    }else document.getElementById("test-para5").innerHTML = "Image showned  number is 4"
+
+    if(input == ""){
+        document.getElementById("test-print5").innerHTML = "OOPS!!! Please Enter any number"
+    }
+
+    if(input == ""){
+        document.getElementById("test-para5").innerHTML = ""
+    }
+}
